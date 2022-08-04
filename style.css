@@ -141,7 +141,7 @@ body {
   text-decoration: none;
   color: #e7332b;
 }
-.body_section_link {
+.body_section_link span {
   color: #e7332b;
 }
 
@@ -155,10 +155,14 @@ body {
 
 .footer_info {
   display: flex;
-  gap: 5rem;
+  gap: 13rem;
   padding-top: 10rem;
+  border-bottom: 2px solid #514949;
+  height: 12rem;
 }
-
+.footer_link {
+  line-height: 25px;
+}
 .footer_link h1 {
   color: #514949;
 }
@@ -170,17 +174,28 @@ body {
 .footer_link li a {
   text-decoration: none;
   color: #e7332b;
+  font-size: 18px;
 }
 .footer_contact {
   width: 18%;
+  line-height: 20px;
 }
-
+.footer_contact h1 {
+  color: #514949;
+}
 .footer_contact a {
   text-decoration: none;
   color: #e7332b;
 }
-
+.footer_media h1 {
+  color: #514949;
+}
 .footer_media_img img {
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+
+.footer_foot {
+  text-align: center;
 }
